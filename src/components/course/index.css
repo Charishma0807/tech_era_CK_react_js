@@ -1,0 +1,71 @@
+.EachCourseContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.CourseName {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 2px;
+}
+
+.CourseImage {
+  width: 250px;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.CourseDetailsContainer {
+  width: 100%;
+  padding: 20px;
+}
+
+.FailureImage {
+  width: 400px;
+}
+
+.FailureTitle {
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.CourseNameTile {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.FailureDescription {
+  font-size: 15px;
+}
+
+.CourseDescription {
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.RetryButton {
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  /* color: white; */
+  /* background-color: #4656a1; */
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.loader-Container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
